@@ -12,8 +12,8 @@ namespace ISACE
         /// Главная точка входа для приложения.
         /// 
         /// </summary>
-        public static Form1 f1;
-        public static Form10 f10;
+        public static MainForm f1;
+        public static ReportForm f10;
         public static bool flag;
         public static bool nool;
         public static bool adpass;
@@ -22,7 +22,7 @@ namespace ISACE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form11());
+            Application.Run(new LoginForm());
         }
     }
 }
